@@ -1,0 +1,1 @@
+javascript:(function(){$.ajax({type: 'post', url : '/aam/score/CourseInquiry_ido.action',dataType:'json',data: {'start':'2018-02-26','end':'2018-06-30'},success: function(json){window.bridge.show(JSON.stringify(json));} });})()
